@@ -6,7 +6,7 @@ on:
 jobs:
   converge:
     name: Converge site to Production
-    runs-on: tfprod-werf
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
