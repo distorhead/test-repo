@@ -1,0 +1,8 @@
+project: x
+configVersion: 1
+---
+image: x
+from: alpine
+shell:
+  install:
+  - echo GO
